@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation</title>
+    <link rel="stylesheet" href="validation.css">
+</head>
+<body class="bgimg">
+    
+
+    <h1 style="color:whitesmoke; text-align: center;margin-bottom: 30px; font-family: Georgia, 'Times New Roman', Times, serif; font-size: xx-large;">LOGIN FORM</h1>
+     
+    <div class="outer">    
+    <div class="inner">
+    <form action="#" id="nextpage" onsubmit="return validation()">
+        <label for="user">Username</label><br>
+        <input type="text" id="user" placeholder="Enter your username" size="30"><br><br>
+        <span id="userr" style="color: red; font-weight:bold;"></span><br>
+         <label for="pass">Password</label><br> 
+        <input type="password" id="pass" placeholder="Enter your pasword" size="30"><br><br>
+        <span id="pswrd" style="color: red; font-weight: bold;"></span><br>
+        <label for="cpass">Confirm Password</label><br>
+        <input type="password" id="cpass" placeholder="Confirm your password" size="30"><br><br>
+        <span id="cpswrd" style="color: red; font-weight: bold;"></span><br>    
+        <label for="mail">Email</label><br>
+        <input type="text" id="mail" placeholder="Enter your Email" size="30"><br><br>
+        <span id="tmail" style="color: red; font-weight: bold;"></span><br>
+        <label for="mobile">Mobile No.</label><br>
+        <input type="number" id="mobile" placeholder="Enter your Mobile No." size="60"><br><br>
+        <span id="nmobile" style="color: red; font-weight: bold;"></span><br>
+
+       <input type="submit" id="result">     
+    </div>
+
+    </div>
+        
+  
+    </form>
+    <div id="result">
+
+    </div>
+
+
+
+
+    <script src="validation.js"></script>
+</body>
+</html>

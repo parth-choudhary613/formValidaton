@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bgimg{
+    width: 100%;
+    height: auto;
+    background-image:url("snow-mountain-night-wallpaper-3840x2160_54.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+input[type=text] {
+    border: none;
+    border-bottom: 3px solid white;
+    background-color: transparent;
+    border-radius: 20px;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+  }
+  input[type=number] {
+    border: none;
+    border-bottom: 3px solid white;
+    background-color: transparent;
+    border-radius: 20px;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+  }
+  input[type=password] {
+    border: none;
+    border-bottom: 3px solid white;
+    background-color: transparent;
+    border-radius: 20px;
+    height: 30px;
+    font-size:20px;
+    text-align: center;
+    color: white;
+  }
+  input[type=email] {
+    border: none;
+    border-bottom: 3px solid white;
+    background-color: transparent;
+    border-radius: 20px;
+    height: 30px;
+    font-size:20px;
+    text-align: center;
+    color: white;
+  }
+.inner{
+    text-align: center;
+    align-items: center;
+    height: 600px;
+    font-size: 25px;
+     border-radius: 10px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10 px rgba(0,0,0,.2);
+    color: white
+}
+.outer{
+    width: 600px;
+    height: 600px;
+    border: 5px solid rgba(255,255,255,.2);
+    margin:auto;
+    border-radius: 10px;
+}
+.click{
+  outline: 0;
+  cursor: pointer;
+  padding: 5px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  vertical-align: middle;
+  border: 2px solid;
+  border-radius: 6px;
+  color: violet;
+  background-color: transparent;
+  border-color: #1b1f2326;
+  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px 0px inset;
+}
+::placeholder{
+  color: white;
+}
