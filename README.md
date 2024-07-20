@@ -32,3 +32,5 @@ Should not exceed 10 digits.
 Clone the repository.
 Open index.html in a web browser to view the login form.
 Fill in the form fields and submit to see the validation in action.
+
+![Screenshot 2024-07-20 082831](https://github.com/user-attachments/assets/9957c43b-28ce-4616-975a-f86291b01521)
